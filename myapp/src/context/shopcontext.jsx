@@ -64,7 +64,7 @@ export const ShopProvider = ({ children }) => {
   };
 
   return (
-    <ShopContext.Provider value={{ 
+    <ShopContext.Provider value={{
       cart, 
       addToCart, 
       removeFromCart, // Export the new function
